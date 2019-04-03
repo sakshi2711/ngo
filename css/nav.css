@@ -1,0 +1,25 @@
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.nav-item{
+    font-size: 38px;
+    margin-left: 40px;
+}
+/* .nav-item:nth-child(2){
+    margin-left: 200px;
+    padding-top: 20px;
+} */
+.nav-item:nth-child(3){
+    padding-top: 20px;
+     /* margin-left: 450px;  */
+}
+.nav-item:nth-child(2):hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#route-space{
+    padding-left: 10px;
+}

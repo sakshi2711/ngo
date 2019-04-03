@@ -1,0 +1,133 @@
+/* body{
+	padding: 0;
+	margin: 0;
+    overflow-x: hidden;
+} */
+.navbar{
+    margin: 0px;
+    padding: 3px 0;
+    border: 0px;
+}
+.navbar-brand{
+    height: 4rem;
+}
+#navbarSupportedContent li{
+   padding: 5px;
+} 
+.nav-item{
+   width: 150px;
+   margin: 0 auto;
+   padding: 0 30px;
+   font-size: 20px;
+}
+.nav-item:first-child{
+    margin-left: 130px;
+}
+.nav-item:nth-child(2){
+    margin-left: 20px;
+}
+.nav-item:nth-child(3){
+    margin-left: 20px;
+}
+.nav-item:nth-child(4){
+    margin-left: 40px;
+}
+.nav-item:hover{
+    font-weight: bold; 
+}
+.nav-item:last-child>button{
+    margin-left: 100px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+#ngo-main-picture{
+	height: 90vh;
+	width: 100vw;
+	background-image: url("../images/ngo-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+	/*filter: blur(2px);*/
+}
+#ngo-main-picture h1{
+    margin-left: 800px;
+    padding-top: 30px;
+    color: white;
+    font-size: 4rem; 
+}
+#ngo-main-picture h2{
+    margin-left: 800px;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+/* grid */
+#grid-heading{
+    text-align: center;
+     padding-top: 65px;
+     font-size: 32px;
+     color: black;
+ }
+ .grid-head{
+     text-align: center;
+ }
+ #grid-info{
+     padding-left: 80px;
+     padding-right: 80px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     color: gray;
+     font-weight: 450;
+ }
+ #grip-wrapper p{
+     color: gray;
+ }
+ #grid-process{
+     padding-top: 20px;
+     padding-bottom: 50px;
+ }
+ .row i{
+     color: lightsalmon;
+     padding-bottom: 20px;
+ }
+ .row i:hover{
+     color: lightcoral;
+ }
+ #grid{
+     padding-bottom: 50px;
+     /* background-image: url("img/bg6.jpg"); */
+ }
+
+ #form{
+    padding-top: 100px;
+    /* padding-bottom: 50px; */
+    background-image: url("../images/ngo-bg-2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#register>h4{
+
+    color: white
+}
+#register{
+    margin-top: -70px;
+    padding-bottom: 14px;
+}
+#form h2{
+    padding-bottom: 20px;
+}
+.myForm{
+    padding-top: 20px;
+}
+#subscribe{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+#date-div{
+    text-align: center;
+}
